@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="#" class="brand">NET - IN SOLUTIONS</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    <br>
+    <img src="img/dribbble-code.gif" width="700px" height="420px" />
+    <br>
+        <h1>Contacto</h1>
+        <p style="text-align: center;">¡Contáctanos para cualquier consulta o solicitud de información!</p>
+    <div class="myform">
+        <form id="myForm">
+            <label>Nombre y Apellido</label>
+            <input type="text" name="nombres" placeholder="nombre y apellidos">
+            <br>
+            <label>Tu mensaje</label>
+            <input type="text area" name="mensaje" placeholder="tu mensaje">
+            <br>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="email">
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+    <script src="mail.js"></script>
+</body>
+<footer>Copyright EGG Cooperacion @ NET ING</footer>
+</html>
